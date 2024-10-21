@@ -21,6 +21,9 @@ const menuItems = [
   { text: 'Logout', icon: <ExitToAppIcon sx={{ color: '#fff' }} />, path: '/logout' },
 ];
 
+
+
+
 const Sidebar = () => {
   const navigate = useNavigate();
 
@@ -55,5 +58,7 @@ const Sidebar = () => {
     </Drawer>
   );
 };
+
+
 
 export default Sidebar;
